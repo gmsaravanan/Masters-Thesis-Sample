@@ -164,6 +164,18 @@ Generating natural language text from a conceptualized representation, such as a
 Generating a poetry in the form of a sonnet.
 
 
+## Sentiment Analysis 
+
+## Named Entity Recognition 
+
+## Text Summarization 
+
+## Relation Extraction 
+
+## Information Retrieval 
+
+## Visual Question Answering 
+
 ## Text-To-Speech Synthesis
 
 ## Text-based-Games
@@ -317,12 +329,33 @@ Introduced by ReClor (ICLR 2020), logical reasoning is to evaluate the logical r
 
 ## Visual Question Answering
 
+## Image Captioning
 
+### Image Captioning
+
+Image Captioning is the task of describing the content of an image in words. This task lies at the intersection of computer vision and natural language processing. Most image captioning systems use an encoder-decoder framework, where an input image is encoded into an intermediate representation of the information in the image, and then decoded into a descriptive text sequence. The most popular benchmarks are nocaps and COCO, and models are typically evaluated according to a BLEU or CIDER metric. 
+
+## Mathematical Reasoning 
+
+### Mathematical Reasoning 
+
+## Chatbot
+
+### Chatbot
+
+Chatbot or conversational AI is a language model designed and implemented to have conversations with humans. 
+
+
+
+### [Dialogue Generation](#dialogue-generation)
 
 # Others
 
 ## Active Learning
 
+### Active Learning
+
+Active Learning is a paradigm in supervised machine learning which uses fewer training examples to achieve better optimization by iteratively training a predictor, and using the predictor in each iteration to choose the training examples which will increase its chances of finding better configurations and at the same time improving the accuracy of the prediction model
 
 
 # Collapsible Markdown
