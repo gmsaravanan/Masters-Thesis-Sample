@@ -79,6 +79,36 @@ Multimodal machine translation is the task of doing machine translation with mul
 
 Low-resource machine translation is the task of machine translation on a low-resource language where large data may not be available.
 
+## Text Classification
+
+### Text Classification
+
+### Topic Models
+
+A topic model is a type of statistical model for discovering the abstract "topics" that occur in a collection of documents. Topic modeling is a frequently used text-mining tool for the discovery of hidden semantic structures in a text body.
+
+### Document Classification
+
+### Sentence Classification
+
+### Emotion Classification
+
+Emotion classification, or emotion categorization, is the task of recognising emotions to classify them into the corresponding category. Given an input, classify it as 'neutral or no emotion' or as one, or more, of several given emotions that best represent the mental state of the subject's facial expression, words, and so on. Some example benchmarks include ROCStories, Many Faces of Anger (MFA), and GoEmotions. Models can be evaluated using metrics such as the Concordance Correlation Coefficient (CCC) and the Mean Squared Error (MSE).
+
+### Multi-Label Text Classification
+
+### Semi-Supervised Text Classification
+
+### Coherence Evaluation
+
+Evaluating the overall coherence of text as measured by its readability and flow through ideas.
+
+<details><summary>Transformer Models for Text Coherence Assessment </summary><p>
+
+**Abstract** - Coherence is an important aspect of text quality and is crucial for ensuring its readability. It is essential desirable for outputs from text generation systems like summarization, question answering, machine translation, question generation, table-to-text, etc. An automated coherence scoring model is also helpful in essay scoring or providing writing feedback. A large body of previous work has leveraged entity-based methods, syntactic patterns, discourse relations, and more recently traditional deep learning architectures for text coherence assessment. Previous work suffers from drawbacks like the inability to handle long-range dependencies, out-of-vocabulary words, or model sequence information. We hypothesize that coherence assessment is a cognitively complex task that requires deeper models and can benefit from other related tasks. Accordingly, in this paper, we propose four different Transformer-based architectures for the task: vanilla Transformer, hierarchical Transformer, multi-task learning-based model, and a model with fact-based input representation. Our experiments with popular benchmark datasets across multiple domains on four different coherence assessment tasks demonstrate that our models achieve state-of-the-art results outperforming existing models by a good margin. 
+
+**Link** - https://paperswithcode.com/paper/transformer-models-for-text-coherence
+</p></details>
 
 
 ## Question Answering
