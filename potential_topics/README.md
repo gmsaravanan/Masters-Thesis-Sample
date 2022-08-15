@@ -29,6 +29,58 @@ List of Potential Topics to consider for the Thesis
 
 ## Machine Translation
 
+### Machine Translation
+
+Machine translation is the task of translating a sentence in a source language to a different target language.
+
+Approaches for machine translation can range from rule-based to statistical to neural-based. More recently, encoder-decoder attention-based architectures like BERT have attained major improvements in machine translation.
+
+One of the most popular datasets used to benchmark machine translation systems is the WMT family of datasets. Some of the most commonly used evaluation metrics for machine translation systems include BLEU, METEOR, NIST, and others. 
+
+![](https://production-media.paperswithcode.com/thumbnails/task/task-0000000257-2b560008_M7RFnV9.jpg)
+
+### Transliteration
+
+Transliteration is a mechanism for converting a word in a source (foreign) language to a target language, and often adopts approaches from machine translation. In machine translation, the objective is to preserve the semantic meaning of the utterance as much as possible while following the syntactic structure in the target language. In Transliteration, the objective is to preserve the original pronunciation of the source word as much as possible while following the phonological structures of the target language.
+
+For example, the city’s name “Manchester” has become well known by people of languages other than English. These new words are often named entities that are important in cross-lingual information retrieval, information extraction, machine translation, and often present out-of-vocabulary challenges to spoken language technologies such as automatic speech recognition, spoken keyword search, and text-to-speech.
+
+### Unsupervised Machine Translation
+
+Unsupervised machine translation is the task of doing machine translation without any translation resources at training time.
+
+![](https://production-media.paperswithcode.com/thumbnails/task/task-0000001097-dc9057dd.jpg)
+
+<details><summary>Leveraging Automated Unit Tests for Unsupervised Code Translation </summary><p>
+
+**Abstract** - With little to no parallel data available for programming languages, unsupervised methods are well-suited to source code translation. However, the majority of unsupervised machine translation approaches rely on back-translation, a method developed in the context of natural language translation and one that inherently involves training on noisy inputs. Unfortunately, source code is highly sensitive to small changes; a single token can result in compilation failures or erroneous programs, unlike natural languages where small inaccuracies may not change the meaning of a sentence. To address this issue, we propose to leverage an automated unit-testing system to filter out invalid translations, thereby creating a fully tested parallel corpus. We found that fine-tuning an unsupervised model with this filtered data set significantly reduces the noise in the translations so-generated, comfortably outperforming the state-of-the-art for all language pairs studied. In particular, for Java -> Python and Python -> C++ we outperform the best previous methods by more than 16% and 24% respectively, reducing the error rate by more than 35%. 
+
+**Link** - https://paperswithcode.com/paper/leveraging-automated-unit-tests-for-1
+</p></details>
+
+### Automatic Post-Editing
+
+Automatic post-editing (APE) is used to correct errors in the translation made by the machine translation systems.
+
+### Multimodal Machine Translation
+
+Multimodal machine translation is the task of doing machine translation with multiple data sources - for example, translating "a bird is flying over water" + an image of a bird over water to German text.
+
+![](https://production-media.paperswithcode.com/thumbnails/task/task-0000001101-fb2e2264.jpg)
+
+<details><summary>VISA: An Ambiguous Subtitles Dataset for Visual Scene-Aware Machine Translation </summary><p>
+
+**Abstract** - Existing multimodal machine translation (MMT) datasets consist of images and video captions or general subtitles, which rarely contain linguistic ambiguity, making visual information not so effective to generate appropriate translations. We introduce VISA, a new dataset that consists of 40k Japanese-English parallel sentence pairs and corresponding video clips with the following key features: (1) the parallel sentences are subtitles from movies and TV episodes; (2) the source subtitles are ambiguous, which means they have multiple possible translations with different meanings; (3) we divide the dataset into Polysemy and Omission according to the cause of ambiguity. We show that VISA is challenging for the latest MMT system, and we hope that the dataset can facilitate MMT research. The VISA dataset is available at: https://github.com/ku-nlp/VISA. 
+
+**Link** - https://paperswithcode.com/paper/visa-an-ambiguous-subtitles-dataset-for
+</p></details>
+
+### Low-Resource Neural Machine Translation
+
+Low-resource machine translation is the task of machine translation on a low-resource language where large data may not be available.
+
+
+
 ## Question Answering
 
 ### Question Answering
