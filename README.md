@@ -1,2 +1,2 @@
 # Masters-Thesis
-Masters Thesis work for LJMU &amp; Upgrad
+Masters Thesis work for LJMU & Upgrad
