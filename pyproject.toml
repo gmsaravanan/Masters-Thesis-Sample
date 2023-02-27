@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "masters-thesis"
+version = "0.1.0"
+description = ""
+authors = ["Paresh Pradhan <pparesh@ford.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^3.5.2"
+numpy = "^1.24.1"
+pandas = "^1.5.2"
+transformers = "^4.25.1"
+torch = "^1.13.1"
+accelerate = "^0.15.0"
+openai = "^0.26.1"
+ipywidgets = "^8.0.4"
+jupyterlab-widgets = "^3.0.5"
+gensim = "^4.3.0"
+sentencepiece = "^0.1.97"
+protobuf = "^4.21.12"
+datasets = "^2.8.0"
+spacy = "^3.5.0"
+pytextrank = "^3.2.4"
+rake-nltk = "^1.0.6"
+Cython = "^0.29.33"
+python-rake = "^1.5.0"
+nlp-rake = {git = "https://github.com/zelandiya/RAKE-tutorial.git"}
+summa = "^1.2.0"
+evaluate = {extras = ["rouge_score"], version = "^0.4.0"}
+rouge-score = "^0.1.2"
+bert-score = "^0.3.12"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
